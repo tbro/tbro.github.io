@@ -8,8 +8,7 @@
     <body>
     <div id="body">
       <h2>Network Manager and zbus</h2>
-      <h1>NetworkManager and Zbus</h1>
-<p>Traveling heavily recently, I've become fatigued from typing all the WiFi
+      <p>Traveling heavily recently, I've become fatigued from typing all the WiFi
 passphrases. My phone can happily connect via a QR code. Why does my laptop
 required so much typing, I asked. So I proposed a simple project.</p>
 <p>Researching how I might use my web-cam to connect to WiFi networks, I came
@@ -37,17 +36,18 @@ macro. But all that is gleaned fairly easily from the documentation, I think. Th
 salient discovery was that <code>zbus</code> allows declaring <a href="https://www.alteeve.com/w/List_of_DBus_data_types">DBbus
 signatures</a> on your
 types. This is done via a macro, like so:</p>
-<pre><code class="language-">#[zvariant(signature = &quot;a{sa{sv}}&quot;)]`
-
-struct MyType{..}
-</code></pre>
+<pre style="background-color:#eff1f5;">
+<code><span style="color:#4f5b66;">#[</span><span style="color:#bf616a;">zvariant</span><span style="color:#4f5b66;">(signature = &quot;</span><span style="color:#a3be8c;">a{sa{sv}}</span><span style="color:#4f5b66;">&quot;)]
+</span><span style="color:#b48ead;">struct </span><span style="color:#4f5b66;">MyType{..}
+</span></code></pre>
 <p>Declaring the correct signature(<code>a{sa{sv}}</code>) on the struct passed to
 <code>NetworkManager</code>s <code>Settings.add_connection()</code> allowed it to navigate <code>Dbus</code>'s
 type system. Its children don't have any children of their own, so
-<code>SerializedDict</code> and <code>DeserializeDict</code> works fine on them. For a more complete
-example you can <a href="https://github.com/tbro/scampi/blob/9642b1a0ee6175469803bf572e13c90915b7d9e9/src/network_manager/mod.rs#L63-L73">have a look at the code</a>.</p>
+<code>SerializedDict</code> and <code>DeserializeDict</code> works fine on them.</p>
+<p>For a more complete example you can have a look at <a href="https://github.com/tbro/scampi/blob/9642b1a0ee6175469803bf572e13c90915b7d9e9/src/network_manager/mod.rs#L63-L73">the
+code</a>.</p>
 <p>I believe I could go further and replace some fields defined as <code>String</code> with
-more appropriate types, but it's one more thing learn and I think this is good
+more appropriate types, but it's one more thing to learn and I think this is good
 enough for now.</p>
 
     </div>

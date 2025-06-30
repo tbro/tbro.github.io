@@ -1,0 +1,13 @@
+ignore:
+  - "!justfile"
+  - "justfile"
+
+syntax_highlight:
+  theme: "base16-ocean.light"
+  enabled: true
+site:
+  title: "tbro.github.io"
+  description: A blog...
+  base_url: "https://tbro.github.io"
+posts:
+  rss: rss.xml

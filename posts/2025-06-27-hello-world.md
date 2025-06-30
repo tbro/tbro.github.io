@@ -6,4 +6,4 @@ is_draft: false
 ---
 # This is our first Post!
 
-Nothing to see here. Whoever heard of a blog with a single post?
+Nothing to see here. Whoever heard of a blog with a single post? Not me...

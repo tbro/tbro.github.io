@@ -1,4 +1,14 @@
+#top {
+    li {display: inline-block;}
+    li:after { content: " |"; }
+    li:last-child:after { content: ""; }
+}
 body {
     font-size: x-large;
     margin: 2em;
+    code {
+	color: orangered;
+	style: bold;
+
+    }
 }

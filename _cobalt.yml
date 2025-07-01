@@ -1,5 +1,4 @@
 ignore:
-  - "!justfile"
   - "justfile"
 
 syntax_highlight:

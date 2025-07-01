@@ -6,7 +6,7 @@ is_draft: false
 ---
 I'm a versatile software engineer with diverse experience. I've enjoyed writing
 `Rust` full time for the past two years. In the past I worked extensively with
-`Nodejs` and `typescript`. I also have worked professionally with `Python`, `Java` and
+`Nodejs` and `Typescript`. I also have worked professionally with `Python`, `Java` and
 `Go`. Most recently I worked at startups in the blockchain space. In the past I
 have worked at larger companies in hospitality and customer support. I gravitate
 toward the back-end, but I have some front-end experience. Beyond writing code, I
@@ -34,8 +34,13 @@ I have also worked on many diverse projects. Some examples:
 	family).
   * I made [mutually authorized client/server image viewer](https://github.com/tbro/viewd)
   * I did some `angular` UX for customer support
-  * I made built graphs in `JavaScript` to visualize entity relationships for a non-profit
+  * I built graphs in `JavaScript` to visualize entity relationships for a non-profit
   * Most recently, I made a small `Linux` cli to [create a WiFi connection by scanning QR code](https://github.com/tbro/scampi)
 
 In addition to the above, I have written many CI pipelines for `github`,
 `gitlab` and `circleCI`, many tests, bash scripts and a lot of documentation.
+
+## Languages
+
+  * English (native)
+  * Spanish (fluent)

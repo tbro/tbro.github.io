@@ -20,4 +20,20 @@ body {
 	style: bold;
 
     }
+    #footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-right: 1em;
+	margin-bottom: 1em;
+    }
+}
+.text-large {
+    font-size: large;
+}
+.text-medium {
+    font-size: medium;
+}
+.text-small{
+    font-size: small;
 }

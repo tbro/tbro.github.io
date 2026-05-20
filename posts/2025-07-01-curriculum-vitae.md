@@ -4,43 +4,56 @@ published_date: 2025-07-01 13:23:12.581893648 +0000
 layout: default.liquid
 is_draft: false
 ---
-I'm a versatile software engineer with diverse experience. I've enjoyed writing
-`Rust` full time for the past two years. In the past I worked extensively with
-`Nodejs` and `Typescript`. I also have worked professionally with `Python`, `Java` and
-`Go`. Most recently I worked at startups in the blockchain space. In the past I
-have worked at larger companies in hospitality and customer support. I gravitate
-toward the back-end, but I have some front-end experience. Beyond writing code, I
-have dev-ops skills including experience with `kubernetes` and `terraform`. I tend
-toward TDD and try to be (lowercase) agile.
 
-I enjoy a good work/life balance and travel extensively. I work remotely.
+Versatile software engineer with a strong bias toward the back-end and
+systems programming. I have written `Rust` professionally since 2022 and
+worked extensively with `Node.js` and `TypeScript` before that. I have also
+delivered production work in `Python`, `Java`, and `Go`. Beyond writing code
+I have solid DevOps experience with `Kubernetes` and `Terraform`.
+
+I practice TDD, prefer lean processes over heavyweight ones, and care about
+keeping systems simple and maintainable.
+
+I work remotely and travel extensively.
 
 ## Experience
 
-Most recently I worked in Blockchain space, some examples of my contributions are:
+### Backend Systems (2022–present)
 
-  * Implementation of Merkalized State
-  * Implementation of transaction execution
-  * Implementation of Block Header production and verification
-  * `Rust` <> Etherium inter-op
-  * Developed a demo wallet and tooling for testing
-  * Implementation of blockchain component of a mobile voting app.
+Two consecutive roles at early-stage startups building distributed systems
+in `Rust`:
 
-I have also worked on many diverse projects. Some examples:
+- Designed and implemented authenticated, append-only state storage
+- Built a concurrent execution pipeline for ordered state transitions
+- Implemented distributed record production and cryptographic verification
+- Developed a cross-system protocol integration layer in `Rust`
+- Built a reference client and developer tooling for integration testing
+- Implemented the distributed ledger component of a mobile voting application
 
-  * Developed multiple REST APIs in different languages, including `Rust`, `Typescript` and `Java`
-  * I made a [TLS certificate generation
-	tool](https://github.com/rustls/rcgen/pull/190) (now part of `rustls`
-	family).
-  * I made [mutually authorized client/server image viewer](https://github.com/tbro/viewd)
-  * I did some `angular` UX for customer support
-  * I built graphs in `JavaScript` to visualize entity relationships for a non-profit
-  * Most recently, I made a small `Linux` cli to [create a WiFi connection by scanning QR code](https://github.com/tbro/scampi)
+### Previous roles (2015–2022)
 
-In addition to the above, I have written many CI pipelines for `github`,
-`gitlab` and `circleCI`, many tests, bash scripts and a lot of documentation.
+Larger companies in hospitality and customer support:
+
+- Developed and maintained REST APIs in `Rust`, `TypeScript`, and `Java`
+- Built Angular UX for a customer support platform
+- Designed and implemented JavaScript graph visualizations of entity
+  relationships for a non-profit
+- Authored CI pipelines for GitHub Actions, GitLab CI, and CircleCI
+- Wrote extensive tests, bash automation, and technical documentation
+
+## Open Source
+
+- **[rakers](https://github.com/tbro/rakers)** — lightweight headless JS
+  renderer written in `Rust`; executes JavaScript and returns rendered HTML.
+  Built on html5ever and QuickJS. Published on [crates.io](https://crates.io/crates/rakers).
+- **[rustls/rcgen](https://github.com/rustls/rcgen/pull/190)** — contributed
+  TLS certificate generation tooling, now part of the `rustls` ecosystem.
+- **[viewd](https://github.com/tbro/viewd)** — mutually authenticated
+  client/server image viewer in `Rust`.
+- **[scampi](https://github.com/tbro/scampi)** — Linux CLI to create a WiFi
+  connection by scanning a QR code.
 
 ## Languages
 
-  * English (native)
-  * Spanish (fluent)
+- English (native)
+- Spanish (fluent)
